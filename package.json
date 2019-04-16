@@ -5,6 +5,10 @@
   "keywords": ["eslint", "eslintconfig", "vv"],
   "main": "index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liaoyongfu/eslint-config-vv"
+  },
   "peerDependencies": {
     "eslint": "^5.16.0"
   },
