@@ -36,7 +36,6 @@ module.exports = {
         }],
         // 禁止导入无关的模块
         "import/no-extraneous-dependencies": ['error', {
-            "packageDir": path.join(__dirname, 'src'),
             "devDependencies": ['**/tests/**.js', '/mock/**/**.js', '**/**.test.js']
         }],
         // 取消“非交互式元件不允许交互”
