@@ -3,6 +3,10 @@
   "version": "0.0.4",
   "description": "前端项目 eslint 配置",
   "keywords": ["eslint", "eslintconfig", "vv"],
+  "author": {
+    "name": "liaoyongfu",
+    "email": "893753543@qq.com"
+  },
   "main": "index.js",
   "license": "MIT",
   "repository": {
