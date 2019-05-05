@@ -31,7 +31,7 @@ module.exports = {
 };
 ````
 
-## IDE 开启 eslint 检测
+## IDE 开启 eslint 检测和自动修复
 
 ### Webstrom
 
