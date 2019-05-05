@@ -41,3 +41,8 @@ module.exports = {
 ### VSCode
 
 [配置教程](https://segmentfault.com/a/1190000009077086)
+
+## TODO
+
+- 增加 Typescript 版本
+- 在项目过程中不断维护规则
