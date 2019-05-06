@@ -10,12 +10,26 @@
 
 具体覆盖规则请查看 [index.js](./index.js) 文件。
 
+## 安装 install-peerdeps 工具
+
+由于内置 peerDependencies 比较多，所以请先安装 [install-peerdeps](https://github.com/nathanhleung/install-peerdeps) 工具（如果已安装请跳过）：
+
+````
+# If you're using npm
+npm install -g install-peerdeps
+
+# If you're using yarn
+yarn global add install-peerdeps
+
+cd my-project-directory
+
+install-peerdeps <package>[@<version>]
+````
+
 ## 安装
 
 ````
-$ yarn add eslint-plugin-vv eslint -D
-// or
-$ npm install --dev eslint-plugin-vv
+$ install-peerdeps eslint-config-vv -d
 ````
 
 ## 使用

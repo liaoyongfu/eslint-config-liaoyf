@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vv",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "前端项目 eslint 配置",
   "keywords": ["eslint", "eslintconfig", "vv"],
   "author": {
@@ -14,9 +14,7 @@
     "url": "https://github.com/liaoyongfu/eslint-config-vv"
   },
   "peerDependencies": {
-    "eslint": "^5.16.0"
-  },
-  "dependencies": {
+    "eslint": "^5.16.0",
     "babel-eslint": "^10.0.1",
     "eslint-config-airbnb": "17.1.0",
     "eslint-config-prettier": "^4.1.0",
@@ -26,6 +24,8 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "prettier": "^1.17.0"
+  },
+  "dependencies": {
   },
   "devDependencies": {}
 }
