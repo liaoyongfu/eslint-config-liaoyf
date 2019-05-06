@@ -21,20 +21,8 @@ module.exports = {
             // 指定每个缩进级别为 4 个空格数
             tabWidth: 4
         }],
-        // 缩进使用 4 个空格
-        "indent": ['error', 4],
         // 仅使用.js为jsx代码的文件扩展名
         "react/jsx-filename-extension": ['error', { "extensions": [".js"] }],
-        // 均使用领取一行的 jsx 写法
-        "react/jsx-wrap-multilines": ['error', {
-            "declaration": "parens-new-line",
-            "assignment": "parens-new-line",
-            "return": "parens-new-line",
-            "arrow": "parens-new-line",
-            "condition": "parens-new-line",
-            "logical": "parens-new-line",
-            "prop": "parens-new-line"
-        }],
         // 禁止导入无关的模块
         "import/no-extraneous-dependencies": ['error', {
             "devDependencies": ['**/tests/**.js', '/mock/**/**.js', '**/**.test.js']
