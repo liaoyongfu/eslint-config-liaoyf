@@ -1,4 +1,4 @@
-# eslint-plugin-vv
+# eslint-config-vv
 
 前端 React 项目 EsLint 配置文件。主要使用：
 
