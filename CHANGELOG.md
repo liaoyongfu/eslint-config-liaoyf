@@ -1,4 +1,3 @@
-## v0.1.0 2019-5-6
+## 1.0.0 (2019-05-08)
 
-- [变更]迁移所有的依赖到对等依赖
-- [新增]增加 install-peerdeps 安装工具说明
+* 增加 typescript ([555afed](https://github.com/liaoyongfu/eslint-config-vv/commit/555afed))
