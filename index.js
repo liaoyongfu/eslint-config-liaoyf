@@ -35,5 +35,12 @@ module.exports = {
         'jsx-a11y/no-static-element-interactions': 'off',
         // <a>具有有效 href 属性
         'jsx-a11y/anchor-is-valid': 'off',
+        "react/jsx-indent": ['error', 4],
+        "react/jsx-indent-props": ['error', 4],
+        "linebreak-style": ['off'],
+        "react/jsx-one-expression-per-line": ["off", {
+            allow: 'literal'
+        }],
+        "comma-dangle": ["error", "never"],
     }
 };

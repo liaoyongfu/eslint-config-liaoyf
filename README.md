@@ -22,9 +22,22 @@ $ npm install --dev eslint-config-vv eslint babel-eslint eslint-config-airbnb es
 
 在根目录中新建`.eslintrc.js`文件：
 
+针对 react 项目：
+
 ````
 module.exports = {
     extends: ["vv"],
+    rules: {
+        // 进行规则覆盖
+    }
+};
+````
+
+针对 react + typescript 项目：
+
+````
+module.exports = {
+    extends: ["vv/react-typescript"],
     rules: {
         // 进行规则覆盖
     }
@@ -41,8 +54,3 @@ module.exports = {
 ### VSCode
 
 [配置教程](https://segmentfault.com/a/1190000009077086)
-
-## TODO
-
-- 增加 Typescript 版本
-- 在项目过程中不断维护规则
