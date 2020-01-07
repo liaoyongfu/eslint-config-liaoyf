@@ -1,4 +1,4 @@
-# eslint-config-vv
+# eslint-config-liaoyf
 
 前端 React 项目 EsLint 配置文件。主要使用：
 
@@ -13,9 +13,9 @@
 ## 安装
 
 ````
-$ yarn add eslint-config-vv eslint babel-eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-compat eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react prettier -D
+$ yarn add eslint-config-liaoyf eslint babel-eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-compat eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react prettier -D
 // or
-$ npm install --dev eslint-config-vv eslint babel-eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-compat eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react prettier
+$ npm install --dev eslint-config-liaoyf eslint babel-eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-compat eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react prettier
 ````
 
 ## 使用
@@ -26,7 +26,7 @@ $ npm install --dev eslint-config-vv eslint babel-eslint eslint-config-airbnb es
 
 ````
 module.exports = {
-    extends: ["vv"],
+    extends: ["v"],
     rules: {
         // 进行规则覆盖
     }
@@ -37,7 +37,7 @@ module.exports = {
 
 ````
 module.exports = {
-    extends: ["vv/react-typescript"],
+    extends: ["liaoyf/react-typescript"],
     rules: {
         // 进行规则覆盖
     }
