@@ -26,7 +26,7 @@ $ npm install --dev eslint-config-liaoyf eslint babel-eslint eslint-config-airbn
 
 ````
 module.exports = {
-    extends: ["v"],
+    extends: ["liaoyf"],
     rules: {
         // 进行规则覆盖
     }
