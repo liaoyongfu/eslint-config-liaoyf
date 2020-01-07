@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-vv",
+  "name": "eslint-config-liaoyf",
   "version": "1.2.0",
   "description": "前端项目 eslint 配置",
   "keywords": [
@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/liaoyongfu/eslint-config-vv"
+    "url": "https://github.com/liaoyongfu/eslint-config-liaoyf"
   },
   "peerDependencies": {
     "babel-eslint": "^10.0.1",
