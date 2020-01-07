@@ -4,7 +4,6 @@
 
 - [`airbnb 代码风格指南`](https://github.com/airbnb/javascript)
 - [`prettier`](https://prettier.io)：代码格式化
-- [`eslint-config-compat`](https://github.com/amilajack/eslint-plugin-compat#readme)：检测兼容性代码
 
 ## 覆盖规则列表
 
@@ -13,9 +12,9 @@
 ## 安装
 
 ````
-$ yarn add eslint-config-liaoyf eslint babel-eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-compat eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react prettier -D
+$ yarn add @typescript-eslint/eslint-plugin eslint-config-airbnb-typescript eslint-config-liaoyf eslint babel-eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-compat eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react prettier -D
 // or
-$ npm install --dev eslint-config-liaoyf eslint babel-eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-compat eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react prettier
+$ npm install --dev @typescript-eslint/eslint-plugin eslint-config-airbnb-typescript eslint-config-liaoyf eslint babel-eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-compat eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react prettier
 ````
 
 ## 使用
