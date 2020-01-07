@@ -19,28 +19,26 @@ module.exports = {
             // 使用单引号
             singleQuote: true,
             // 指定每个缩进级别为 4 个空格数
-            tabWidth: 4
+            tabWidth: 4,
+            printWidth: 120
         }],
-        // 仅使用.js为jsx代码的文件扩展名
-        "react/jsx-filename-extension": ['error', { "extensions": [".js"] }],
+        // 使用 ts/tsx 结尾的文件扩展名
+        "react/jsx-filename-extension": ['error', { "extensions": [".ts", ".tsx"] }],
         // 禁止导入无关的模块
         "import/no-extraneous-dependencies": ['error', {
             "devDependencies": ['**/tests/**.js', '/mock/**/**.js', '**/**.test.js']
         }],
-        // 取消“非交互式元件不允许交互”
-        'jsx-a11y/no-noninteractive-element-interactions': 'off',
-        // click 事件不必伴随 key 键盘事件
-        'jsx-a11y/click-events-have-key-events': 'off',
-        // 取消“静态元素没有交互”
-        'jsx-a11y/no-static-element-interactions': 'off',
-        // <a>具有有效 href 属性
-        'jsx-a11y/anchor-is-valid': 'off',
+        // jsx 缩进
         "react/jsx-indent": ['error', 4],
+        // jsx 属性缩进
         "react/jsx-indent-props": ['error', 4],
+        // 关闭换行符
         "linebreak-style": ['off'],
+        // 文字不限定每一行限制为一个表达式
         "react/jsx-one-expression-per-line": ["off", {
             allow: 'literal'
         }],
+        // 不要尾随逗号
         "comma-dangle": ["error", "never"],
     }
 };
